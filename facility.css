@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    height: 70vh;
+    background-image: url(/images/ram_mandir.jpg);
+    background-size: 100% 83%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    /* padding-top: 1.2rem;     */
+    background-color: #cbccc01c;
+    background-position-y: inherit;
+
+}
+.parshad{
+    height: 12rem;
+    width: inherit;
+    padding: 45px;
+    display: flex;
+    margin: 18px;
+    /* background-color: rgba(235, 119, 25, 0.192); */
+    background-image: radial-gradient(rgb(250, 206, 119),white);
+
+    
+}
+.parshad-pic{
+    height:13rem;
+    width: 30%;
+    /* border: 2px solid black; */
+}
+.parshad-pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 60%;
+    box-shadow: 0px 0px 6px 4px whitesmoke;
+    /* margin-top: 1px; */
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.parshad-text{
+        width: 90%;
+        /* border: 2px solid black; */
+        margin-left:80px;
+        padding-left: 29px;
+        justify-content: center;
+        /* display: flex; */
+        background-image: linear-gradient(rgb(255, 168, 6), rgba(235, 119, 25, 0.192));
+        border-radius: 24px;
+        /* margin-right: 20px; */
+}
+
+.parshad-text{
+    font-weight: 700;
+    box-shadow: 0px 0px 6px 4px #f1e4b6;
+}
+.hospital{
+    background-image: linear-gradient(100deg,red,white);
+    box-shadow: 0px 0px 6px 4px #eba7a7;
+}
+.btn a{
+    text-decoration: none;
+   color: whitesmoke;
+}
+.parshad-text button{
+    background-color:orangered;
+    color: white;
+    margin-left: 200px;
+    width: 101px;
+    height: 28px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+}
+.hospital button{
+    background-color: red;
+      color:white;
+}
+.hotel{
+    background-image: radial-gradient(skyblue,white);
+    box-shadow: 0px 0px 6px 4px #a7ebeb;
+}
+.hotel button{
+    color:whitesmoke;
+    background-color: aqua;
+    width: 126px;
+}
